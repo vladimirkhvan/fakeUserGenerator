@@ -1,8 +1,6 @@
 @import './scss/variables';
 
 .main {
-    display: flex;
-    justify-content: center;
     h1 {
         font-family: $heading-font;
         font-size: 50px;
@@ -10,6 +8,7 @@
         color: $accent;
         margin-bottom: 30px;
         margin-top: 50px;
+        text-align: center;
     }
 
     display: flex;
@@ -23,6 +22,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin: 0 auto;
 
         @media screen and (max-width:1100px) {  
             justify-content: space-around;
